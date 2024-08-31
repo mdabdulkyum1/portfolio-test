@@ -1,0 +1,15 @@
+{
+    "builds": [
+      {
+        "src": "src/api/contact.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/api/contact",
+        "dest": "src/api/contact.js"
+      }
+    ]
+  }
+  
